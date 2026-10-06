@@ -40,7 +40,9 @@
             line-height: 1.6;
         }
 
-        /* Animated background */
+        /* =========================
+           ANIMATED BACKGROUND
+        ========================= */
 
         .background {
             position: fixed;
@@ -104,7 +106,9 @@
             }
         }
 
-        /* Particles */
+        /* =========================
+           PARTICLES
+        ========================= */
 
         .particles {
             position: absolute;
@@ -141,7 +145,9 @@
             }
         }
 
-        /* Navigation */
+        /* =========================
+           NAVIGATION
+        ========================= */
 
         nav {
             position: fixed;
@@ -195,7 +201,9 @@
             background: rgba(66,217,255,.12);
         }
 
-        /* General */
+        /* =========================
+           GENERAL
+        ========================= */
 
         section {
             width: min(1120px, calc(100% - 30px));
@@ -237,7 +245,9 @@
             box-shadow: 0 20px 60px rgba(0,0,0,.25);
         }
 
-        /* Hero */
+        /* =========================
+           HERO
+        ========================= */
 
         #home {
             min-height: 100vh;
@@ -345,7 +355,9 @@
             transform: translateY(-4px);
         }
 
-        /* Profile */
+        /* =========================
+           PROFILE
+        ========================= */
 
         .profile-area {
             display: flex;
@@ -417,7 +429,9 @@
             right: 0;
         }
 
-        /* Objective */
+        /* =========================
+           OBJECTIVE
+        ========================= */
 
         .objective {
             padding: 35px;
@@ -448,7 +462,9 @@
             font-size: 16px;
         }
 
-        /* Cards */
+        /* =========================
+           CARDS
+        ========================= */
 
         .cards {
             display: grid;
@@ -487,7 +503,9 @@
             color: var(--muted);
         }
 
-        /* Skills */
+        /* =========================
+           SKILLS
+        ========================= */
 
         .skills-grid {
             display: grid;
@@ -538,7 +556,9 @@
             background: linear-gradient(90deg, var(--cyan), var(--blue));
         }
 
-        /* Projects */
+        /* =========================
+           PROJECTS
+        ========================= */
 
         .project-card {
             display: grid;
@@ -591,7 +611,9 @@
             font-size: 12px;
         }
 
-        /* Timeline */
+        /* =========================
+           TIMELINE
+        ========================= */
 
         .timeline {
             position: relative;
@@ -639,7 +661,9 @@
             margin-top: 8px;
         }
 
-        /* Certifications */
+        /* =========================
+           CERTIFICATIONS
+        ========================= */
 
         .certificate-grid {
             display: grid;
@@ -647,7 +671,9 @@
             gap: 20px;
         }
 
-        /* Contact */
+        /* =========================
+           CONTACT
+        ========================= */
 
         .contact-grid {
             display: grid;
@@ -681,7 +707,9 @@
             word-break: break-word;
         }
 
-        /* Footer */
+        /* =========================
+           FOOTER
+        ========================= */
 
         footer {
             text-align: center;
@@ -694,7 +722,9 @@
             color: var(--cyan);
         }
 
-        /* Reveal */
+        /* =========================
+           REVEAL ANIMATION
+        ========================= */
 
         .reveal {
             opacity: 0;
@@ -707,7 +737,9 @@
             transform: translateY(0);
         }
 
-        /* Top button */
+        /* =========================
+           TOP BUTTON
+        ========================= */
 
         #topBtn {
             position: fixed;
@@ -731,7 +763,9 @@
             visibility: visible;
         }
 
-        /* Mobile */
+        /* =========================
+           MOBILE
+        ========================= */
 
         @media(max-width: 950px) {
 
@@ -826,9 +860,12 @@
 
 <body>
 
-    <!-- Animated Background -->
+    <!-- =========================
+         ANIMATED BACKGROUND
+    ========================= -->
 
     <div class="background">
+
         <div class="grid"></div>
 
         <div class="orb one"></div>
@@ -836,14 +873,20 @@
         <div class="orb three"></div>
 
         <div class="particles" id="particles"></div>
+
     </div>
 
 
-    <!-- Navigation -->
+    <!-- =========================
+         NAVIGATION
+    ========================= -->
 
     <nav>
 
-        <div class="logo" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <div
+            class="logo"
+            onclick="window.scrollTo({top:0,behavior:'smooth'})"
+        >
             NSRB
         </div>
 
@@ -882,7 +925,9 @@
     </nav>
 
 
-    <!-- HOME -->
+    <!-- =========================
+         HOME
+    ========================= -->
 
     <section id="home">
 
@@ -891,32 +936,53 @@
             <div class="reveal">
 
                 <div class="availability">
+
                     <span class="dot"></span>
+
                     Available for opportunities
+
                 </div>
 
+
                 <h1>
+
                     Hi, I'm
+
                     <span class="gradient">
                         Naga Sai Revati Bhavaraju
                     </span>
+
                 </h1>
 
-                <div class="typing" id="typing"></div>
+
+                <div
+                    class="typing"
+                    id="typing"
+                ></div>
+
 
                 <p class="hero-description">
+
                     A passionate Computer Science Engineering student
                     who enjoys learning new technologies, building useful
                     applications and solving real-world problems.
+
                 </p>
+
 
                 <div class="buttons">
 
-                    <a href="#projects" class="btn btn-primary">
+                    <a
+                        href="#projects"
+                        class="btn btn-primary"
+                    >
                         Explore My Work
                     </a>
 
-                    <a href="#contact" class="btn btn-secondary">
+                    <a
+                        href="#contact"
+                        class="btn btn-secondary"
+                    >
                         Let's Connect
                     </a>
 
@@ -925,7 +991,7 @@
             </div>
 
 
-            <!-- PROFILE IMAGE -->
+            <!-- PROFILE PHOTO -->
 
             <div class="profile-area reveal">
 
@@ -942,6 +1008,7 @@
 
                 </div>
 
+
                 <div class="floating-badge badge-one">
                     💻 CSE Student
                 </div>
@@ -957,7 +1024,9 @@
     </section>
 
 
-    <!-- ABOUT -->
+    <!-- =========================
+         ABOUT
+    ========================= -->
 
     <section id="about">
 
@@ -981,22 +1050,31 @@
             </h3>
 
             <p>
+
                 Motivated Computer Science Engineering student seeking an
                 opportunity to apply technical skills, learn new technologies,
                 solve real-world problems and contribute effectively to an
                 organization while continuously developing professional skills.
+
             </p>
 
         </div>
 
 
-        <div class="cards" style="margin-top:25px;">
+        <div
+            class="cards"
+            style="margin-top:25px;"
+        >
 
             <div class="card glass reveal">
 
-                <div class="card-icon">⚡</div>
+                <div class="card-icon">
+                    ⚡
+                </div>
 
-                <h3>Quick Learner</h3>
+                <h3>
+                    Quick Learner
+                </h3>
 
                 <p>
                     Enthusiastic about learning new technologies and improving
@@ -1008,9 +1086,13 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🧩</div>
+                <div class="card-icon">
+                    🧩
+                </div>
 
-                <h3>Problem Solving</h3>
+                <h3>
+                    Problem Solving
+                </h3>
 
                 <p>
                     Interested in breaking down problems and developing
@@ -1022,9 +1104,13 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🤝</div>
+                <div class="card-icon">
+                    🤝
+                </div>
 
-                <h3>Teamwork</h3>
+                <h3>
+                    Teamwork
+                </h3>
 
                 <p>
                     Comfortable collaborating with teammates and contributing
@@ -1038,7 +1124,9 @@
     </section>
 
 
-    <!-- EDUCATION -->
+    <!-- =========================
+         EDUCATION
+    ========================= -->
 
     <section id="education">
 
@@ -1057,11 +1145,16 @@
 
         <div class="cards">
 
+
             <div class="card glass reveal">
 
-                <div class="card-icon">🎓</div>
+                <div class="card-icon">
+                    🎓
+                </div>
 
-                <h3>B.Tech – Computer Science & Engineering</h3>
+                <h3>
+                    B.Tech – Computer Science & Engineering
+                </h3>
 
                 <p>
                     Ideal Institute of Technology
@@ -1076,9 +1169,13 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">📚</div>
+                <div class="card-icon">
+                    📚
+                </div>
 
-                <h3>Intermediate</h3>
+                <h3>
+                    Intermediate
+                </h3>
 
                 <p>
                     Sri Chaitanya Junior College
@@ -1093,26 +1190,33 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🏫</div>
+                <div class="card-icon">
+                    🏫
+                </div>
 
-                <h3>SSC</h3>
+                <h3>
+                    SSC
+                </h3>
 
                 <p>
                     LPT School
                 </p>
 
                 <p>
-                    2021
+                    2021 • 100%
                 </p>
 
             </div>
+
 
         </div>
 
     </section>
 
 
-    <!-- SKILLS -->
+    <!-- =========================
+         SKILLS
+    ========================= -->
 
     <section id="skills">
 
@@ -1134,9 +1238,13 @@
 
             <div class="skill-card glass reveal">
 
-                <div class="skill-icon">💻</div>
+                <div class="skill-icon">
+                    💻
+                </div>
 
-                <h3>Programming</h3>
+                <h3>
+                    Programming
+                </h3>
 
                 <p>
                     Python • Java • C
@@ -1151,9 +1259,13 @@
 
             <div class="skill-card glass reveal">
 
-                <div class="skill-icon">🌐</div>
+                <div class="skill-icon">
+                    🌐
+                </div>
 
-                <h3>Web Development</h3>
+                <h3>
+                    Web Development
+                </h3>
 
                 <p>
                     HTML • CSS • JavaScript
@@ -1168,9 +1280,13 @@
 
             <div class="skill-card glass reveal">
 
-                <div class="skill-icon">🗄️</div>
+                <div class="skill-icon">
+                    🗄️
+                </div>
 
-                <h3>Database</h3>
+                <h3>
+                    Database
+                </h3>
 
                 <p>
                     SQL • MySQL
@@ -1185,9 +1301,13 @@
 
             <div class="skill-card glass reveal">
 
-                <div class="skill-icon">🛠️</div>
+                <div class="skill-icon">
+                    🛠️
+                </div>
 
-                <h3>Tools</h3>
+                <h3>
+                    Tools
+                </h3>
 
                 <p>
                     GitHub • VS Code
@@ -1202,9 +1322,13 @@
 
             <div class="skill-card glass reveal">
 
-                <div class="skill-icon">📊</div>
+                <div class="skill-icon">
+                    📊
+                </div>
 
-                <h3>Microsoft Excel</h3>
+                <h3>
+                    Microsoft Excel
+                </h3>
 
                 <p>
                     Spreadsheets • Data Handling
@@ -1222,7 +1346,9 @@
     </section>
 
 
-    <!-- PROJECTS -->
+    <!-- =========================
+         PROJECTS
+    ========================= -->
 
     <section id="projects">
 
@@ -1242,13 +1368,13 @@
         <div class="project-card glass reveal">
 
 
-            <!-- EXPENSE TRACKER IMAGE -->
+            <!-- NEW EXPENSE TRACKER IMAGE -->
 
             <div class="project-image">
 
                 <img
-                    src="expense tracker dp.jpeg"
-                    alt="Expense Tracker Project"
+                    src="expense trackercover.jpeg"
+                    alt="Personal Finance Dashboard Expense Tracker"
                 >
 
             </div>
@@ -1261,18 +1387,32 @@
                 </h3>
 
                 <p>
+
                     A personal expense management web application designed
                     to add, manage and track daily expenses. It also provides
                     monthly spending analysis and expense visualization using
                     charts.
+
                 </p>
+
 
                 <div class="tags">
 
-                    <span class="tag">HTML</span>
-                    <span class="tag">CSS</span>
-                    <span class="tag">JavaScript</span>
-                    <span class="tag">React</span>
+                    <span class="tag">
+                        HTML
+                    </span>
+
+                    <span class="tag">
+                        CSS
+                    </span>
+
+                    <span class="tag">
+                        JavaScript
+                    </span>
+
+                    <span class="tag">
+                        React
+                    </span>
 
                 </div>
 
@@ -1281,18 +1421,27 @@
         </div>
 
 
-        <div class="cards" style="margin-top:25px;">
+        <div
+            class="cards"
+            style="margin-top:25px;"
+        >
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🌐</div>
+                <div class="card-icon">
+                    🌐
+                </div>
 
-                <h3>Web Development Projects</h3>
+                <h3>
+                    Web Development Projects
+                </h3>
 
                 <p>
+
                     Practiced responsive web development using HTML,
                     CSS and JavaScript while creating interactive pages
                     and applications.
+
                 </p>
 
             </div>
@@ -1300,13 +1449,19 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">📈</div>
+                <div class="card-icon">
+                    📈
+                </div>
 
-                <h3>Data & Productivity</h3>
+                <h3>
+                    Data & Productivity
+                </h3>
 
                 <p>
+
                     Exploring spreadsheets, data handling and visualization
                     concepts using Microsoft Excel.
+
                 </p>
 
             </div>
@@ -1314,13 +1469,19 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🚀</div>
+                <div class="card-icon">
+                    🚀
+                </div>
 
-                <h3>Continuous Learning</h3>
+                <h3>
+                    Continuous Learning
+                </h3>
 
                 <p>
+
                     Continuously building small projects to strengthen
                     programming and software development skills.
+
                 </p>
 
             </div>
@@ -1330,7 +1491,9 @@
     </section>
 
 
-    <!-- EXPERIENCE -->
+    <!-- =========================
+         EXPERIENCE
+    ========================= -->
 
     <section id="experience">
 
@@ -1356,15 +1519,19 @@
 
                 <div class="timeline-card glass">
 
-                    <small>Virtual Internship</small>
+                    <small>
+                        Virtual Internship
+                    </small>
 
                     <h3>
                         Deloitte Virtual Internship
                     </h3>
 
                     <p>
+
                         Gained exposure to professional workflows,
                         problem solving and industry-oriented tasks.
+
                     </p>
 
                 </div>
@@ -1378,15 +1545,19 @@
 
                 <div class="timeline-card glass">
 
-                    <small>Training</small>
+                    <small>
+                        Training
+                    </small>
 
                     <h3>
                         ServiceNow Training
                     </h3>
 
                     <p>
+
                         Learned administration concepts, Virtual Agent
                         and SLA configuration.
+
                     </p>
 
                 </div>
@@ -1400,15 +1571,19 @@
 
                 <div class="timeline-card glass">
 
-                    <small>Training</small>
+                    <small>
+                        Training
+                    </small>
 
                     <h3>
                         Python Web Development Training
                     </h3>
 
                     <p>
+
                         ICT Academy training focused on Python and
                         web development concepts.
+
                     </p>
 
                 </div>
@@ -1422,15 +1597,19 @@
 
                 <div class="timeline-card glass">
 
-                    <small>Campus Activity</small>
+                    <small>
+                        Campus Activity
+                    </small>
 
                     <h3>
                         Brand Campus Ambassador – Abekus
                     </h3>
 
                     <p>
+
                         Participated in campus activities, technical
                         quizzes and competitions.
+
                     </p>
 
                 </div>
@@ -1443,7 +1622,9 @@
     </section>
 
 
-    <!-- CERTIFICATIONS -->
+    <!-- =========================
+         CERTIFICATIONS
+    ========================= -->
 
     <section id="certifications">
 
@@ -1465,7 +1646,9 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🏆</div>
+                <div class="card-icon">
+                    🏆
+                </div>
 
                 <h3>
                     Introduction to Python Programming
@@ -1480,7 +1663,9 @@
 
             <div class="card glass reveal">
 
-                <div class="card-icon">🏆</div>
+                <div class="card-icon">
+                    🏆
+                </div>
 
                 <h3>
                     Programming in Java EE
@@ -1498,7 +1683,9 @@
     </section>
 
 
-    <!-- CONTACT -->
+    <!-- =========================
+         CONTACT
+    ========================= -->
 
     <section id="contact">
 
@@ -1509,8 +1696,10 @@
             <h2>Let's Connect</h2>
 
             <p>
+
                 I'm always open to learning opportunities, collaborations
                 and professional connections.
+
             </p>
 
         </div>
@@ -1524,9 +1713,13 @@
                 href="mailto:revatibhavaraju2006@gmail.com"
             >
 
-                <div class="icon">✉</div>
+                <div class="icon">
+                    ✉
+                </div>
 
-                <strong>Email</strong>
+                <strong>
+                    Email
+                </strong>
 
                 <span>
                     revatibhavaraju2006@gmail.com
@@ -1540,9 +1733,13 @@
                 href="tel:9948095386"
             >
 
-                <div class="icon">📞</div>
+                <div class="icon">
+                    📞
+                </div>
 
-                <strong>Phone</strong>
+                <strong>
+                    Phone
+                </strong>
 
                 <span>
                     9948095386
@@ -1557,9 +1754,13 @@
                 target="_blank"
             >
 
-                <div class="icon">in</div>
+                <div class="icon">
+                    in
+                </div>
 
-                <strong>LinkedIn</strong>
+                <strong>
+                    LinkedIn
+                </strong>
 
                 <span>
                     View Profile
@@ -1574,9 +1775,13 @@
                 target="_blank"
             >
 
-                <div class="icon">◉</div>
+                <div class="icon">
+                    ◉
+                </div>
 
-                <strong>GitHub</strong>
+                <strong>
+                    GitHub
+                </strong>
 
                 <span>
                     View Projects
@@ -1590,29 +1795,40 @@
     </section>
 
 
-    <!-- FOOTER -->
+    <!-- =========================
+         FOOTER
+    ========================= -->
 
     <footer>
 
         © 2026
-        <strong>Naga Sai Revati Bhavaraju</strong>
+
+        <strong>
+            Naga Sai Revati Bhavaraju
+        </strong>
+
         • Built with HTML, CSS & JavaScript
 
     </footer>
 
 
-    <!-- TOP BUTTON -->
+    <!-- =========================
+         TOP BUTTON
+    ========================= -->
 
-    <button id="topBtn" aria-label="Scroll to top">
+    <button
+        id="topBtn"
+        aria-label="Scroll to top"
+    >
         ↑
     </button>
 
 
     <script>
 
-        /* ================================
+        /* =========================
            PARTICLES
-        ================================= */
+        ========================= */
 
         const particleContainer =
             document.getElementById("particles");
@@ -1643,9 +1859,12 @@
         }
 
 
-        /* ================================
+        /* =========================
            TYPING EFFECT
-        ================================= */
+           
+           WEB DEVELOPMENT LEARNER
+           HAS BEEN REMOVED
+        ========================= */
 
         const roles = [
 
@@ -1653,17 +1872,19 @@
 
             "Computer Science Student",
 
-            "Web Development Learner",
-
             "Problem Solver"
 
         ];
 
+
         const typingElement =
             document.getElementById("typing");
 
+
         let roleIndex = 0;
+
         let characterIndex = 0;
+
         let deleting = false;
 
 
@@ -1671,6 +1892,7 @@
 
             const current =
                 roles[roleIndex];
+
 
             if (!deleting) {
 
@@ -1682,14 +1904,22 @@
 
                 characterIndex++;
 
-                if (characterIndex === current.length) {
+
+                if (
+                    characterIndex ===
+                    current.length
+                ) {
 
                     deleting = true;
 
-                    setTimeout(typeEffect, 1500);
+                    setTimeout(
+                        typeEffect,
+                        1500
+                    );
 
                     return;
                 }
+
 
             } else {
 
@@ -1701,30 +1931,38 @@
 
                 characterIndex--;
 
+
                 if (characterIndex === 0) {
 
                     deleting = false;
 
                     roleIndex =
-                        (roleIndex + 1) % roles.length;
+                        (roleIndex + 1)
+                        % roles.length;
+
                 }
+
             }
+
 
             setTimeout(
                 typeEffect,
                 deleting ? 45 : 80
             );
+
         }
+
 
         typeEffect();
 
 
-        /* ================================
+        /* =========================
            SCROLL REVEAL
-        ================================= */
+        ========================= */
 
         const revealElements =
             document.querySelectorAll(".reveal");
+
 
         const revealObserver =
             new IntersectionObserver(
@@ -1733,13 +1971,18 @@
 
                     entries.forEach(entry => {
 
-                        if (entry.isIntersecting) {
+                        if (
+                            entry.isIntersecting
+                        ) {
 
-                            entry.target.classList.add("show");
+                            entry.target.classList.add(
+                                "show"
+                            );
 
                             revealObserver.unobserve(
                                 entry.target
                             );
+
                         }
 
                     });
@@ -1760,15 +2003,18 @@
         });
 
 
-        /* ================================
+        /* =========================
            ACTIVE NAVIGATION
-        ================================= */
+        ========================= */
 
         const sections =
             document.querySelectorAll("section");
 
+
         const navLinks =
-            document.querySelectorAll(".nav-links a");
+            document.querySelectorAll(
+                ".nav-links a"
+            );
 
 
         const sectionObserver =
@@ -1778,7 +2024,9 @@
 
                     entries.forEach(entry => {
 
-                        if (entry.isIntersecting) {
+                        if (
+                            entry.isIntersecting
+                        ) {
 
                             navLinks.forEach(link => {
 
@@ -1786,9 +2034,15 @@
                                     "active"
                                 );
 
+
                                 if (
-                                    link.getAttribute("href")
-                                    === "#" + entry.target.id
+                                    link.getAttribute(
+                                        "href"
+                                    )
+                                    ===
+                                    "#"
+                                    +
+                                    entry.target.id
                                 ) {
 
                                     link.classList.add(
@@ -1819,27 +2073,36 @@
         });
 
 
-        /* ================================
+        /* =========================
            TOP BUTTON
-        ================================= */
+        ========================= */
 
         const topButton =
             document.getElementById("topBtn");
 
 
-        window.addEventListener("scroll", () => {
+        window.addEventListener(
+            "scroll",
+            () => {
 
-            if (window.scrollY > 500) {
+                if (
+                    window.scrollY > 500
+                ) {
 
-                topButton.classList.add("show");
+                    topButton.classList.add(
+                        "show"
+                    );
 
-            } else {
+                } else {
 
-                topButton.classList.remove("show");
+                    topButton.classList.remove(
+                        "show"
+                    );
+
+                }
 
             }
-
-        });
+        );
 
 
         topButton.addEventListener(
@@ -1858,39 +2121,46 @@
         );
 
 
-        /* ================================
+        /* =========================
            NAME CLICK EFFECT
-        ================================= */
+        ========================= */
 
         const name =
-            document.querySelector(".gradient");
-
-
-        name.addEventListener("click", () => {
-
-            name.animate(
-
-                [
-                    {
-                        transform: "scale(1)"
-                    },
-
-                    {
-                        transform: "scale(1.05)"
-                    },
-
-                    {
-                        transform: "scale(1)"
-                    }
-                ],
-
-                {
-                    duration: 500
-                }
-
+            document.querySelector(
+                ".gradient"
             );
 
-        });
+
+        name.addEventListener(
+            "click",
+            () => {
+
+                name.animate(
+
+                    [
+
+                        {
+                            transform: "scale(1)"
+                        },
+
+                        {
+                            transform: "scale(1.05)"
+                        },
+
+                        {
+                            transform: "scale(1)"
+                        }
+
+                    ],
+
+                    {
+                        duration: 500
+                    }
+
+                );
+
+            }
+        );
 
     </script>
 
